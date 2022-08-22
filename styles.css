@@ -1,0 +1,77 @@
+body{
+    background-color: #CF9FFF;
+}
+#rock_img, #paper_img, #scissors_img{
+    width: 160px;
+    height: 160px;
+}
+button{
+    width: 160px;
+    height: 160px;
+}
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#title{
+    font-weight: bold;
+    font-size: 3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#message{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+#wish{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}
+#player1 span{
+    font-size: 2rem;
+}
+#player2 span {
+    font-size: 2rem;
+}
+#choice{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#rock, #paper, #scissors{
+    background-color: #D18700;
+    cursor: pointer;
+    position: relative;
+    left: 700px;
+
+}
+#rock:hover, #paper:hover, #scissors:hover{
+    background-color: #e1a639;
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+#user,#computer{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#container2{
+    text-align: center;
+}
+#computerMove{
+    width: 175px;
+    height: 175px;
+    background-color: rgb(208, 193, 193);
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 8px;
+    cursor: not-allowed;
+}
+#computerMove:hover{
+    transform: scale(.98);
+}
